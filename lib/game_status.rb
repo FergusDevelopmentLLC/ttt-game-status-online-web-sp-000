@@ -38,10 +38,10 @@ end
 def full?(board)
   board.each do |position|
     if position == " "
-      return true
+      return false
     end
   end
-  return false
+  return true
 end
 
 board = [" ", " ", " ", "O", "O", "O", " ", " ", " "]
